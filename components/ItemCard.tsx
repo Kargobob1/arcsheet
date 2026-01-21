@@ -1,5 +1,5 @@
 import React from 'react';
-import { ItemData, Rarity, Category } from '../types';
+import { ItemData, Category } from '../types';
 import { RARITY_COLORS, RARITY_TEXT_COLORS } from '../constants';
 import { Coins, Recycle, MapPin, Crosshair, ArrowRightCircle, Box } from 'lucide-react';
 

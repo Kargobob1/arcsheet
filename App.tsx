@@ -1,12 +1,11 @@
 import React, { useState, useMemo } from 'react';
-import { createRoot } from 'react-dom/client';
 import { ITEMS_DB } from './data';
 import { ItemCard } from './components/ItemCard';
 import { Assistant } from './components/Assistant';
 import { StatsWidget } from './components/StatsWidget';
-import { Category, Rarity, ItemData } from './types';
+import { Category, ItemData } from './types';
 import { APP_VERSION, LAST_UPDATED } from './constants';
-import { Search, Filter, Info } from 'lucide-react';
+import { Search, Info } from 'lucide-react';
 
 const App: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
